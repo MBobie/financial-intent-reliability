@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / local environment
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Model checkpoints / large ML artifacts
+checkpoints/
+checkpoint-*/
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Hugging Face / ML caches
+.cache/
+huggingface/
+transformers_cache/
+wandb/
+runs/
+
+# GloVe / large embedding files
+glove.6B.200d.txt
+glove.6B.*d.txt
+
+# Temporary outputs
+tmp/
+temp/
+*.tmp
+*.log
+
+# Local cloud paths / notebook artifacts
+drive_mount/
+colab_outputs/
+
+# Raw datasets unless redistribution is explicitly allowed
+data/raw/

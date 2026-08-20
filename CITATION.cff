@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript."
+title: "Financial Intent Reliability"
+type: software
+version: "0.1.0"
+date-released: "2026-08-20"
+authors:
+  - family-names: "REPLACE_ME"
+    given-names: "REPLACE_ME"
+repository-code: "https://github.com/REPLACE_ME/financial-intent-reliability"
+abstract: >
+  Reproducibility package for experiments on calibration, robustness,
+  selective prediction, abstention, and benchmark provenance in financial
+  intent classification.
+keywords:
+  - intent classification
+  - selective prediction
+  - abstention
+  - calibration
+  - robustness
+  - financial NLP
+  - benchmark provenance
+license: MIT
